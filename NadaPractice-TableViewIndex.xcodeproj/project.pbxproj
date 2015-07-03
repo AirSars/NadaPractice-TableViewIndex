@@ -14,6 +14,14 @@
 		84BBAC841B46784800B7F910 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BBAC831B46784800B7F910 /* Images.xcassets */; };
 		84BBAC871B46784800B7F910 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BBAC851B46784800B7F910 /* LaunchScreen.xib */; };
 		84BBAC931B46784800B7F910 /* NadaPractice_TableViewIndexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBAC921B46784800B7F910 /* NadaPractice_TableViewIndexTests.m */; };
+		84BBAC9F1B46795C00B7F910 /* NadaTableViewIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBAC9D1B46795C00B7F910 /* NadaTableViewIndex.m */; };
+		84BBACA01B46795C00B7F910 /* NadaTableViewIndex.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BBAC9E1B46795C00B7F910 /* NadaTableViewIndex.xib */; };
+		84BBACA31B467AAE00B7F910 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBACA21B467AAE00B7F910 /* Person.m */; };
+		84BBACAA1B467ADB00B7F910 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBACA51B467ADB00B7F910 /* ChineseString.m */; };
+		84BBACAC1B467ADB00B7F910 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 84BBACA81B467ADB00B7F910 /* pinyin.c */; };
+		84BBACB51B467CF500B7F910 /* FollowPeopleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBACB31B467CF500B7F910 /* FollowPeopleCell.m */; };
+		84BBACB61B467CF500B7F910 /* FollowPeopleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BBACB41B467CF500B7F910 /* FollowPeopleCell.xib */; };
+		84BBACB91B467E9A00B7F910 /* NadaModelIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBACB81B467E9A00B7F910 /* NadaModelIndex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,20 @@
 		84BBAC8C1B46784800B7F910 /* NadaPractice-TableViewIndexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NadaPractice-TableViewIndexTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BBAC911B46784800B7F910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BBAC921B46784800B7F910 /* NadaPractice_TableViewIndexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NadaPractice_TableViewIndexTests.m; sourceTree = "<group>"; };
+		84BBAC9C1B46795C00B7F910 /* NadaTableViewIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NadaTableViewIndex.h; sourceTree = "<group>"; };
+		84BBAC9D1B46795C00B7F910 /* NadaTableViewIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NadaTableViewIndex.m; sourceTree = "<group>"; };
+		84BBAC9E1B46795C00B7F910 /* NadaTableViewIndex.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NadaTableViewIndex.xib; sourceTree = "<group>"; };
+		84BBACA11B467AAE00B7F910 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		84BBACA21B467AAE00B7F910 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		84BBACA41B467ADB00B7F910 /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
+		84BBACA51B467ADB00B7F910 /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
+		84BBACA81B467ADB00B7F910 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		84BBACA91B467ADB00B7F910 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		84BBACB21B467CF500B7F910 /* FollowPeopleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowPeopleCell.h; sourceTree = "<group>"; };
+		84BBACB31B467CF500B7F910 /* FollowPeopleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowPeopleCell.m; sourceTree = "<group>"; };
+		84BBACB41B467CF500B7F910 /* FollowPeopleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowPeopleCell.xib; sourceTree = "<group>"; };
+		84BBACB71B467E9A00B7F910 /* NadaModelIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NadaModelIndex.h; sourceTree = "<group>"; };
+		84BBACB81B467E9A00B7F910 /* NadaModelIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NadaModelIndex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +103,24 @@
 		84BBAC751B46784700B7F910 /* NadaPractice-TableViewIndex */ = {
 			isa = PBXGroup;
 			children = (
-				84BBAC7A1B46784700B7F910 /* AppDelegate.h */,
-				84BBAC7B1B46784800B7F910 /* AppDelegate.m */,
+				84BBACB71B467E9A00B7F910 /* NadaModelIndex.h */,
+				84BBACB81B467E9A00B7F910 /* NadaModelIndex.m */,
+				84BBACA41B467ADB00B7F910 /* ChineseString.h */,
+				84BBACA51B467ADB00B7F910 /* ChineseString.m */,
+				84BBACA81B467ADB00B7F910 /* pinyin.c */,
+				84BBACA91B467ADB00B7F910 /* pinyin.h */,
+				84BBACA11B467AAE00B7F910 /* Person.h */,
+				84BBACA21B467AAE00B7F910 /* Person.m */,
+				84BBAC9C1B46795C00B7F910 /* NadaTableViewIndex.h */,
+				84BBAC9D1B46795C00B7F910 /* NadaTableViewIndex.m */,
+				84BBAC9E1B46795C00B7F910 /* NadaTableViewIndex.xib */,
+				84BBACB21B467CF500B7F910 /* FollowPeopleCell.h */,
+				84BBACB31B467CF500B7F910 /* FollowPeopleCell.m */,
+				84BBACB41B467CF500B7F910 /* FollowPeopleCell.xib */,
 				84BBAC7D1B46784800B7F910 /* ViewController.h */,
 				84BBAC7E1B46784800B7F910 /* ViewController.m */,
+				84BBAC7A1B46784700B7F910 /* AppDelegate.h */,
+				84BBAC7B1B46784800B7F910 /* AppDelegate.m */,
 				84BBAC801B46784800B7F910 /* Main.storyboard */,
 				84BBAC831B46784800B7F910 /* Images.xcassets */,
 				84BBAC851B46784800B7F910 /* LaunchScreen.xib */,
@@ -201,6 +237,8 @@
 			files = (
 				84BBAC821B46784800B7F910 /* Main.storyboard in Resources */,
 				84BBAC871B46784800B7F910 /* LaunchScreen.xib in Resources */,
+				84BBACA01B46795C00B7F910 /* NadaTableViewIndex.xib in Resources */,
+				84BBACB61B467CF500B7F910 /* FollowPeopleCell.xib in Resources */,
 				84BBAC841B46784800B7F910 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BBACAC1B467ADB00B7F910 /* pinyin.c in Sources */,
 				84BBAC7F1B46784800B7F910 /* ViewController.m in Sources */,
 				84BBAC7C1B46784800B7F910 /* AppDelegate.m in Sources */,
+				84BBACB91B467E9A00B7F910 /* NadaModelIndex.m in Sources */,
+				84BBACB51B467CF500B7F910 /* FollowPeopleCell.m in Sources */,
+				84BBACAA1B467ADB00B7F910 /* ChineseString.m in Sources */,
+				84BBACA31B467AAE00B7F910 /* Person.m in Sources */,
+				84BBAC9F1B46795C00B7F910 /* NadaTableViewIndex.m in Sources */,
 				84BBAC791B46784700B7F910 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
